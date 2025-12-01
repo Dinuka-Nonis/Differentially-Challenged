@@ -10,7 +10,7 @@ from differentiable.soft_step import soft_step
 x = torch.linspace(-5, 5, 100, requires_grad=True)
 
 # Choose sharpness k
-k = 5.0
+k = 1.0
 
 # Compute soft_step outputs
 y = soft_step(x, k=k)
